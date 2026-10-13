@@ -17,17 +17,7 @@ export const AndroidFrame: React.FC<AndroidFrameProps> = ({ children }) => {
   return (
     <div className={`min-h-screen transition-colors ${theme === 'dark' ? 'bg-[#0e0e12] text-stone-100' : 'bg-[#f4efe6] text-stone-900'} flex flex-col items-center justify-start p-0 sm:py-6 sm:px-4 font-sans`}>
       {/* Top Floating Control Bar for the AI Studio Preview */}
-      <div className="w-full max-w-5xl mb-4 px-4 hidden sm:flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <div className="flex items-center gap-2">
-            <span className="text-xl">🌯</span>
-            <div>
-              <span className="text-sm font-bold font-['Poppins'] tracking-tight">Kebab Mistrz Poland</span>
-              <span className="text-xs text-stone-500 ml-2">Flutter Material 3 Live Redesign Simulator</span>
-            </div>
-          </div>
-        </div>
-
+      <div className="w-full max-w-5xl mb-4 px-4 hidden sm:flex items-center justify-end">
         {/* View mode toggle */}
         <div className="flex items-center gap-1 bg-stone-200 dark:bg-stone-800 p-1 rounded-xl text-xs font-medium">
           <button
