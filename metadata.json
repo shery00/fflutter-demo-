@@ -1,0 +1,7 @@
+{
+  "name": "Kebab Mistrz Poland - Flutter Redesign & Simulator",
+  "description": "Premium Polish kebab ordering application with Material 3 UI, multi-language support (PL/EN), customizable ingredients, BLIK payments, and interactive Flutter code exporter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,19 @@
+{
+  "short_name": "Kebab Mistrz",
+  "name": "Kebab Mistrz Poland - Craft Kebab Order",
+  "icons": [
+    {
+      "src": "/src/assets/images/kebab_rollo_wrap_1791904586990.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#121216",
+  "theme_color": "#e64a19",
+  "display": "standalone",
+  "orientation": "portrait",
+  "description": "Premium Polish kebab ordering application with Material 3 UI, BLIK payments, and customizable items.",
+  "lang": "pl-PL"
+}
